@@ -17,6 +17,7 @@ def get_indices_of_item_weights(weights, length, limit):
         needed_addition = limit - weights[i]
         solution = hash_table_retrieve(ht, needed_addition)
 
+
         if solution is not None:
             return (i, solution)
 
